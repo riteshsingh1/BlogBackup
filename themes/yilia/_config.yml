@@ -6,7 +6,7 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/liuzhida33"
-  #weibo: "#"
+  weibo: "https://weibo.com/572215841"
   rss: /atom.xml
   #zhihu: "#"
   #qq: "#"
@@ -64,10 +64,17 @@ top: true
 # Miscellaneous
 baidu_analytics: false
 google_analytics: false
-favicon: /favicon.png
+favicon: /img/favicon.ico
 
 #你的头像url
 avatar: /assets/blogImg/liuzhida33.png
+
+#版权声明：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明
+declare_type: 2 
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
+licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+
 
 #是否开启分享
 share_jia: true
