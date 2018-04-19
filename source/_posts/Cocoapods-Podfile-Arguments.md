@@ -8,11 +8,11 @@ tags:
 
 ![top](/assets/blogImg/cocoapods-top.jpg)
 
+<!-- more -->
+
 > 文章内容摘自[pluto-y大神](http://www.pluto-y.com/cocoapods-getting-stared/)的博客，感谢大神～
 
 ### Podfile文件
-
-<!-- more -->
 
 ##### 1. pod '框架名' 参数
 

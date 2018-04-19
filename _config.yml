@@ -84,6 +84,15 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: yilia
 
+sitemap:
+   path: sitemap.xml
+
+baidusitemap:
+    path: baidusitemap.xml
+
+plugin:
+- hexo-generator-feed
+
 feed:
     type: atom
     path: atom.xml
