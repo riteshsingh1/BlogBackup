@@ -1,0 +1,19 @@
+<% if ((theme.declare_type === 2 || (theme.declare_type === 1 && post.declare)) && !index){ %>
+<div class="declare">
+	<strong>本文标题：</strong>
+	<%= post.title %>
+	<br>
+	<strong>本文作者：</strong>
+	<%= theme.author%>
+	<br>
+	<strong>发布时间：</strong>
+	<%= page.date.format("YYYY年MM月DD日 - HH:MM")%>
+	<br>
+	<strong>本文链接：</strong>
+	<a href="<%= post.permalink %>"><%= post.permalink %></a>
+	<br>
+	<strong>许可协议：</strong>
+	<i class="fa fa-creative-commons"></i><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<a rel="license" href="<%= theme.licensee_url%>" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)"><%= theme.licensee_name%></a> 转载请保留原文链接及作者。
+</div>
+<% } %>
