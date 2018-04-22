@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: liuzhida33的博客
+title: liuzhida
 subtitle: 志不强者，智不达
 description: 沈阳师范大学16级，iOS开发工程师
 keywords: "iOS,程序猿,编程"
-author: liuzhida33
-language: 
+author: liuzhida
+language: zh-Hans
 timezone:
 email: liuzhida33@gmail.com
 
@@ -82,7 +82,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 sitemap:
    path: sitemap.xml
