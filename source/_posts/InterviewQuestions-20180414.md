@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "我遇到的一些面试题"
+title: "我遇到的一些面试题（1）"
 date: 2018-04-014 10:36
 comments: false
 toc: true
@@ -85,10 +85,13 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
 
 > [iOS 集合的深复制与浅复制](https://www.zybuluo.com/MicroCai/note/50592)
 
-### 7. `@autoreleasepool`如何实现的？释放时机是什么？ 
+### 7. `@autoreleasepool`如何实现的？释放时机是什么？什么时候需要显式使用@autoreleasepool{}？ 
 
 - 对 autorelease 分别执行 push和 pop 操作。销毁对象时执行release操作。
-- 在没有手加Autorelease Pool的情况下，Autorelease对象是在当前的`runloop`迭代结束时释放的，而它能够释放的原因是**系统在每个runloop迭代中都加入了自动释放池Push和Pop**
+- 在没有手加Autorelease Pool的情况下，Autorelease对象是在当前的`runloop`迭代结束时释放的，而它能够释放的原因是**系统在每个runloop迭代中都加入了自动释放池Push和Pop**。
+- 1. 写非UI framework的程序时，需要自己管理对象生存周期。
+  2. autorelease 触发时机发生在下一次runloop的时候。
+  3. 自己创建的线程。
 
 > [黑幕背后的Autorelease](https://blog.sunnyxx.com/2014/10/15/behind-autorelease/)
 
@@ -105,4 +108,5 @@ iOS获取到了用户的“点击”这一行为后，把这个事件封装成UI
 - 数组元素在栈区，链表元素在堆区。
 - 数组元素利用下标定位，时间复杂度为O(1)，链表定位元素时间复杂度为O(n)。
 - 数组插入或删除元素的时间复杂度为O(n)，链表的时间复杂度为O(1)。
+
 
