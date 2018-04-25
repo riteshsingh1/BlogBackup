@@ -1,6 +1,8 @@
 ---
 title: 在 Hexo 中给文章添加版权信息(yilia主题)
 date: 2018-03-20 15:26:32
+declare: true
+comments: true
 tags:
 - Hexo
 - yilia
