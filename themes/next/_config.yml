@@ -261,6 +261,8 @@ alipay: /assets/img/alipay.jpg
 # Declare license on posts
 post_copyright:
   enable: true
+  #版权声明：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明
+  declare_type: 1
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
