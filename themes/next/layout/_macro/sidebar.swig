@@ -30,9 +30,11 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             {% if theme.avatar %}
-              <img class="site-author-image" itemprop="image"
+              <a href="/" class="site-author-image" rel="start" style="border:none">
+                <img class="site-author-image" itemprop="image"
                 src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}"
                 alt="{{ theme.author }}" />
+              </a>
             {% endif %}
               <p class="site-author-name" itemprop="name">{{ theme.author }}</p>
               <p class="site-description motion-element" itemprop="description">{#
@@ -49,7 +51,6 @@
                 {% else %}
                   <a href="{{ url_for(config.archive_dir) }}">
                 {% endif %}
-                    <span class="site-state-item-count">{{ site.posts.length }}</span>
                     <span class="site-state-item-name">{{ __('state.posts') }}</span>
                   </a>
                 </div>
@@ -64,7 +65,6 @@
                     {% for cat in site.categories %}
                       {% if cat.length %}{% set visibleCategories += 1 %}{% endif %}
                     {% endfor %}
-                    <span class="site-state-item-count">{{ visibleCategories }}</span>
                     <span class="site-state-item-name">{{ __('state.categories') }}</span>
                   {% if hasCategoriesPage %}</a>{% endif %}
                 </div>
@@ -79,7 +79,6 @@
                     {% for tag in site.tags %}
                       {% if tag.length %}{% set visibleTags += 1 %}{% endif %}
                     {% endfor %}
-                    <span class="site-state-item-count">{{ visibleTags }}</span>
                     <span class="site-state-item-name">{{ __('state.tags') }}</span>
                   {% if hasTagsPage %}</a>{% endif %}
                 </div>
@@ -109,7 +108,7 @@
                     #}<i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>{#
                   #}{% endif %}{#
                   #}{% if not theme.social_icons.icons_only %}{#
-                    #}{{ name }}{#
+                    #}{{ "" }}{#
                   #}{% endif %}{#
                 #}{% if theme.exturl && theme.social_icons.exturl %}{#
                   #}</span>
