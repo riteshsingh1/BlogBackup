@@ -28,7 +28,12 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner">{% include '_partials/header/index.swig' %}</div>
+
+      <div class="header-inner">{% include '_partials/header/index.swig' %}
+      </div>
+      <canvas class="canvas-lzd" position:absolute>
+      </canvas>
+
     </header>
 
     {{ partial('_third-party/github-banner.swig', {}, {cache: theme.cache.enable}) }}
@@ -100,5 +105,8 @@
   {% include '_third-party/exturl.swig' %}
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
+
+  <script id="canvas-lzd" type="text/javascript" src="/js/src/canvas-lzd.js"></script>
+
 </body>
 </html>
