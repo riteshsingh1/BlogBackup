@@ -8,7 +8,7 @@ tags:
 - Cocoapods
 ---
 
-![top](/assets/blogImg/cocoapods-top.jpg)
+![top](/assets/blogImg/Cocoapods-Podfile-Arguments/cocoapods-top.jpg)
 
 <!-- more -->
 

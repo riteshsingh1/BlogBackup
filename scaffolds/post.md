@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-declare: true
+declare: false
 comments: true
 tags:
 ---

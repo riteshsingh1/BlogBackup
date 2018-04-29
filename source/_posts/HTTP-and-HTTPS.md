@@ -9,7 +9,7 @@ tags:
 - 握手
 ---
 
-![top](/assets/blogImg/http-https-top.jpg)
+![top](/assets/blogImg/HTTP-and-HTTPS/http-https-top.jpg)
 
 <!-- more -->
 

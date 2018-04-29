@@ -8,7 +8,7 @@ tags:
 
 	- 面试
 ---
-![top](/assets/blogImg/interview-top.jpg)
+![top](/assets/blogImg/InterviewQuestions/interview-top.jpg)
 
 <!-- more -->
 
