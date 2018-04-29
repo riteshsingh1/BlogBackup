@@ -60,7 +60,6 @@ function y(p) {
 //点击与触摸时执行 i() 函数
 var headerDiv = document.getElementById("canvas-header");
 headerDiv.onclick = i;
-headerDiv.ontouchstart = i;
 i()
 // document.onclick = i;
 // document.ontouchstart = i;

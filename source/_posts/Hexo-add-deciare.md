@@ -8,7 +8,7 @@ tags:
 - yilia
 ---
 
-![top](/assets/blogImg/hexo-add-deciare-top.jpg)
+![top](/assets/blogImg/Hexo-add-deciare/hexo-add-deciare-top.jpg)
 
 <!-- more -->
 

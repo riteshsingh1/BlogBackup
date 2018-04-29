@@ -8,7 +8,7 @@ tags:
 - NexT
 ---
 
-![top](/assets/blogImg/hexo-next-canvas.png)
+![top](/assets/blogImg/Hexo-next-canvas/hexo-next-canvas.png)
 
 <!-- more -->
 
@@ -77,8 +77,8 @@ function y(p) {
 }
 
 //点击与触摸时执行 i() 函数
-document.onclick = i;
-document.ontouchstart = i;
+var headerDiv = document.getElementById("canvas-header");
+headerDiv.onclick = i;
 i()
 
 ```
@@ -91,16 +91,18 @@ i()
   <script id="canvas-lzd" type="text/javascript" src="/js/src/canvas-lzd.js"></script>
 ```
 
-并搜索`<div class="header-inner">`标签代码，在`</div>`和`</header>`之间添加`<canvas>`标签代码：
+并搜索`<div class="header-inner">`标签代码，在`<header>`之后添加` <div id="canvas-header" class="header" position:absolute>`标签，使`header`部分拥有`onclick`事件， 在`</div>`和`</header>`之间添加`<canvas>`标签代码：
 
 ```html
 <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div id="canvas-header" class="header" position:absolute>
   <div class="header-inner">{% include '_partials/header/index.swig' %}
   </div>
   
   <canvas class="canvas-lzd" position:absolute>
   </canvas>
   
+  </div>
 </header>
 ```
 
