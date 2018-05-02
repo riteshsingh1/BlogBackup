@@ -12,7 +12,7 @@
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <div class="headband"></div>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div id="canvas-header" class="header" position:absolute>
+      <div id="canvas-header" class="header" style="-webkit-tap-highlight-color: transparent;" position:absolute>
         <div class="header-inner">{% include '_partials/header/index.swig' %}
         </div>
         <canvas class="canvas-lzd" position:absolute>
