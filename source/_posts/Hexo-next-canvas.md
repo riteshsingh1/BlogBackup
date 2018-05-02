@@ -95,7 +95,7 @@ i()
 
 ```html
 <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-  <div id="canvas-header" class="header" position:absolute>
+  <div id="canvas-header" class="header" style="-webkit-tap-highlight-color: transparent;" position:absolute>
   <div class="header-inner">{% include '_partials/header/index.swig' %}
   </div>
   
@@ -105,6 +105,10 @@ i()
   </div>
 </header>
 ```
+
+> ` <header> ` 无法添加onclick事件，需要嵌套一层`div`。
+>
+> `style="-webkit-tap-highlight-color: transparent;"`：为了取消移动端点击后有阴影。
 
 ### Step 3
 

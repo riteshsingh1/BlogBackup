@@ -14,5 +14,9 @@ tags:
 
 ##### 1. 可以实现ppt、动画、切换等功能
 
-- [impress.js](https://github.com/impress/impress.js)
+- [impress](https://github.com/impress/impress.js)
+
+##### 2. 鼠标划过Div显示3D特效
+
+- [jQuery Hover3d](https://github.com/ariona/hover3d)
 
