@@ -131,5 +131,5 @@ i()
 
 >参考链接：
 >
->[为你的网站添加动画彩带背景](https://zproo.github.io/2017/为Next主题添加canvas-ribbon/)
+>[ 1 ] : [https://zproo.github.io/2017/为Next主题添加canvas-ribbon/](https://zproo.github.io/2017/为Next主题添加canvas-ribbon/)
 

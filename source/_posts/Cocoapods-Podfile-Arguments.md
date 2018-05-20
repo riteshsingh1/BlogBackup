@@ -1,7 +1,8 @@
 ---
 title: Cocoapods Podfile文件参数剖析
 date: 2018-04-10 16:39:25
-declare: true
+declare: false
+reward: false
 comments: true
 tags:
 - Podfile

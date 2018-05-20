@@ -119,6 +119,6 @@ typedef struct {
 >
 > 参考链接：
 >
-> 🔗  [NSDictionary实现原理](https://blog.csdn.net/linshaolie/article/details/41494303)
->
-> 🔗  [NSDictionary的内部实现](https://www.cnblogs.com/doudouyoutang/p/4379068.html)
+> [ 1 ] : [https://blog.csdn.net/linshaolie/article/details/41494303](https://blog.csdn.net/linshaolie/article/details/41494303)
+> [ 2 ] : [https://www.cnblogs.com/doudouyoutang/p/4379068.html](https://www.cnblogs.com/doudouyoutang/p/4379068.html)
+

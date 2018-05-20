@@ -1,7 +1,8 @@
 ---
 title: HTTP和HTTPS对比
 date: 2018-04-8 17:16:26
-declare: true
+declare: false
+reward: false
 comments: true
 tags:
 - HTTP
