@@ -143,8 +143,7 @@ var sidebarToggleLine1st = new SidebarToggleLine({
 
 > 参考链接：
 >
-> [hexo的next主题个性化教程:打造炫酷网站](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
->
-> [NexT主题 6.0+](https://github.com/theme-next/hexo-theme-next)
->
-> [Next主题新官网](https://theme-next.org)
+> [ 1 ] : [http://shenzekun.cn/hexo的next主题个性化配置教程.html](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
+> [ 2 ] : [https://github.com/theme-next/hexo-theme-next](https://github.com/theme-next/hexo-theme-next)
+> [ 3 ] : [https://theme-next.org](https://theme-next.org)
+
