@@ -22,7 +22,7 @@ tags:
 
 <h3 id = "1">1. 项目模板</h3>
 
-创建一个工程模板结构：
+##### 1. 创建一个工程模板结构：
 
 <pre>
 
@@ -54,7 +54,10 @@ User Defined App.xctemplate
 
 </pre>
 
+##### 2. 修改TemplateInfo.plist文件
 
+1. 修改下`Identifier`字段，以防冲突。
+2. ​
 
 > 参考链接
 > [ 1 ] : [http://mama.indstate.edu/users/ice/tree/](http://mama.indstate.edu/users/ice/tree/)
